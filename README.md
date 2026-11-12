@@ -1,3 +1,37 @@
+# FSCO public website
+
+## GitHub Pages static export
+
+Requires Node.js 22.13 or newer. Install and export:
+
+```sh
+npm ci
+npm run build:static
+```
+
+The `out/` directory contains the complete static website. Preview it with any
+static HTTP server, for example `python3 -m http.server 8080 --directory out`.
+Product tabs, flow animations and email links run in the browser; this export
+does not require a Worker or server-side authentication.
+
+The GitHub Actions workflow `.github/workflows/pages.yml` builds and publishes
+`out/` on pushes to `main`. In repository **Settings → Pages**, select
+**GitHub Actions** as the source. The workflow reads the Pages base path so assets
+work at both `https://freshsupplyco.github.io/public-website/` and a custom domain.
+For a local project-path export, set `NEXT_PUBLIC_BASE_PATH=/public-website` when
+running `npm run build:static`.
+
+To connect `fsco.io`, set it as the custom domain in repository Pages settings,
+configure GoDaddy DNS for GitHub Pages, and rerun the deployment workflow so it
+rebuilds for the domain root. Enable **Enforce HTTPS** once the certificate is
+ready. For Actions deployments, the custom domain is managed in Pages settings;
+a `CNAME` file in the artifact is not used.
+
+The original Sites/Vinext build remains available via `npm run build`.
+Its starter documentation follows for that hosting option.
+
+---
+
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.
