@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T00:00:00Z",
+  "title": "Design System: FSCO Stack",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0.002 268)",
+          "oklch(0.27 0.0032 268)",
+          "oklch(0.39 0.004 268)",
+          "oklch(0.51 0.004 268)",
+          "oklch(0.63 0.0036 268)",
+          "oklch(0.75 0.0028 268)",
+          "oklch(0.87 0.0016 268)",
+          "oklch(0.95 0.0008 268)"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "oklch(0.968 0.003 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.003 268)",
+          "oklch(0.27 0.0048 268)",
+          "oklch(0.39 0.006 268)",
+          "oklch(0.51 0.006 268)",
+          "oklch(0.63 0.0054 268)",
+          "oklch(0.75 0.0042 268)",
+          "oklch(0.87 0.0024 268)",
+          "oklch(0.95 0.0012 268)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "canonical": "oklch(0.21 0.012 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 268)",
+          "oklch(0.27 0.0096 268)",
+          "oklch(0.39 0.012 268)",
+          "oklch(0.51 0.012 268)",
+          "oklch(0.63 0.0108 268)",
+          "oklch(0.75 0.0084 268)",
+          "oklch(0.87 0.0048 268)",
+          "oklch(0.95 0.0024 268)"
+        ]
+      },
+      "ink-hover": {
+        "role": "primary",
+        "displayName": "Ink Hover",
+        "canonical": "oklch(0.33 0.014 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.007 268)",
+          "oklch(0.27 0.0112 268)",
+          "oklch(0.39 0.014 268)",
+          "oklch(0.51 0.014 268)",
+          "oklch(0.63 0.0126 268)",
+          "oklch(0.75 0.0098 268)",
+          "oklch(0.87 0.0056 268)",
+          "oklch(0.95 0.0028 268)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(0.45 0.012 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 268)",
+          "oklch(0.27 0.0096 268)",
+          "oklch(0.39 0.012 268)",
+          "oklch(0.51 0.012 268)",
+          "oklch(0.63 0.0108 268)",
+          "oklch(0.75 0.0084 268)",
+          "oklch(0.87 0.0048 268)",
+          "oklch(0.95 0.0024 268)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "oklch(0.88 0.005 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.004 268)",
+          "oklch(0.27 0.0064 268)",
+          "oklch(0.39 0.008 268)",
+          "oklch(0.51 0.008 268)",
+          "oklch(0.63 0.0072 268)",
+          "oklch(0.75 0.0056 268)",
+          "oklch(0.87 0.0032 268)",
+          "oklch(0.95 0.0016 268)"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "canonical": "oklch(0.17 0.012 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 268)",
+          "oklch(0.27 0.0096 268)",
+          "oklch(0.39 0.012 268)",
+          "oklch(0.51 0.012 268)",
+          "oklch(0.63 0.0108 268)",
+          "oklch(0.75 0.0084 268)",
+          "oklch(0.87 0.0048 268)",
+          "oklch(0.95 0.0024 268)"
+        ]
+      },
+      "night-raised": {
+        "role": "neutral",
+        "displayName": "Night Raised",
+        "canonical": "oklch(0.215 0.014 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.007 268)",
+          "oklch(0.27 0.0112 268)",
+          "oklch(0.39 0.014 268)",
+          "oklch(0.51 0.014 268)",
+          "oklch(0.63 0.0126 268)",
+          "oklch(0.75 0.0098 268)",
+          "oklch(0.87 0.0056 268)",
+          "oklch(0.95 0.0028 268)"
+        ]
+      },
+      "night-line": {
+        "role": "neutral",
+        "displayName": "Night Line",
+        "canonical": "oklch(0.33 0.014 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.007 268)",
+          "oklch(0.27 0.0112 268)",
+          "oklch(0.39 0.014 268)",
+          "oklch(0.51 0.014 268)",
+          "oklch(0.63 0.0126 268)",
+          "oklch(0.75 0.0098 268)",
+          "oklch(0.87 0.0056 268)",
+          "oklch(0.95 0.0028 268)"
+        ]
+      },
+      "night-dim": {
+        "role": "neutral",
+        "displayName": "Night Dim",
+        "canonical": "oklch(0.76 0.012 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 268)",
+          "oklch(0.27 0.0096 268)",
+          "oklch(0.39 0.012 268)",
+          "oklch(0.51 0.012 268)",
+          "oklch(0.63 0.0108 268)",
+          "oklch(0.75 0.0084 268)",
+          "oklch(0.87 0.0048 268)",
+          "oklch(0.95 0.0024 268)"
+        ]
+      },
+      "money": {
+        "role": "secondary",
+        "displayName": "Money Blue",
+        "canonical": "oklch(0.52 0.2 257)",
+        "tonalRamp": [
+          "oklch(0.15 0.1 257)",
+          "oklch(0.27 0.16 257)",
+          "oklch(0.39 0.2 257)",
+          "oklch(0.51 0.2 257)",
+          "oklch(0.63 0.18 257)",
+          "oklch(0.75 0.14 257)",
+          "oklch(0.87 0.08 257)",
+          "oklch(0.95 0.04 257)"
+        ]
+      },
+      "invest": {
+        "role": "secondary",
+        "displayName": "Investment Green",
+        "canonical": "oklch(0.48 0.13 157)",
+        "tonalRamp": [
+          "oklch(0.15 0.065 157)",
+          "oklch(0.27 0.104 157)",
+          "oklch(0.39 0.13 157)",
+          "oklch(0.51 0.13 157)",
+          "oklch(0.63 0.117 157)",
+          "oklch(0.75 0.091 157)",
+          "oklch(0.87 0.052 157)",
+          "oklch(0.95 0.026 157)"
+        ]
+      },
+      "assets": {
+        "role": "secondary",
+        "displayName": "Asset Amber",
+        "canonical": "oklch(0.5 0.12 62)",
+        "tonalRamp": [
+          "oklch(0.15 0.06 62)",
+          "oklch(0.27 0.096 62)",
+          "oklch(0.39 0.12 62)",
+          "oklch(0.51 0.12 62)",
+          "oklch(0.63 0.108 62)",
+          "oklch(0.75 0.084 62)",
+          "oklch(0.87 0.048 62)",
+          "oklch(0.95 0.024 62)"
+        ]
+      },
+      "money-lit": {
+        "role": "tertiary",
+        "displayName": "Money Blue, Lit",
+        "canonical": "oklch(0.76 0.13 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.065 250)",
+          "oklch(0.27 0.104 250)",
+          "oklch(0.39 0.13 250)",
+          "oklch(0.51 0.13 250)",
+          "oklch(0.63 0.117 250)",
+          "oklch(0.75 0.091 250)",
+          "oklch(0.87 0.052 250)",
+          "oklch(0.95 0.026 250)"
+        ]
+      },
+      "invest-lit": {
+        "role": "tertiary",
+        "displayName": "Investment Green, Lit",
+        "canonical": "oklch(0.81 0.15 157)",
+        "tonalRamp": [
+          "oklch(0.15 0.075 157)",
+          "oklch(0.27 0.12 157)",
+          "oklch(0.39 0.15 157)",
+          "oklch(0.51 0.15 157)",
+          "oklch(0.63 0.135 157)",
+          "oklch(0.75 0.105 157)",
+          "oklch(0.87 0.06 157)",
+          "oklch(0.95 0.03 157)"
+        ]
+      },
+      "assets-lit": {
+        "role": "tertiary",
+        "displayName": "Asset Amber, Lit",
+        "canonical": "oklch(0.84 0.14 78)",
+        "tonalRamp": [
+          "oklch(0.15 0.07 78)",
+          "oklch(0.27 0.112 78)",
+          "oklch(0.39 0.14 78)",
+          "oklch(0.51 0.14 78)",
+          "oklch(0.63 0.126 78)",
+          "oklch(0.75 0.098 78)",
+          "oklch(0.87 0.056 78)",
+          "oklch(0.95 0.028 78)"
+        ]
+      },
+      "canvas-money": {
+        "role": "tertiary",
+        "displayName": "Canvas Money",
+        "canonical": "oklch(0.62 0.19 257)",
+        "tonalRamp": [
+          "oklch(0.15 0.095 257)",
+          "oklch(0.27 0.152 257)",
+          "oklch(0.39 0.19 257)",
+          "oklch(0.51 0.19 257)",
+          "oklch(0.63 0.171 257)",
+          "oklch(0.75 0.133 257)",
+          "oklch(0.87 0.076 257)",
+          "oklch(0.95 0.038 257)"
+        ]
+      },
+      "canvas-invest": {
+        "role": "tertiary",
+        "displayName": "Canvas Investment",
+        "canonical": "oklch(0.68 0.16 157)",
+        "tonalRamp": [
+          "oklch(0.15 0.08 157)",
+          "oklch(0.27 0.128 157)",
+          "oklch(0.39 0.16 157)",
+          "oklch(0.51 0.16 157)",
+          "oklch(0.63 0.144 157)",
+          "oklch(0.75 0.112 157)",
+          "oklch(0.87 0.064 157)",
+          "oklch(0.95 0.032 157)"
+        ]
+      },
+      "canvas-assets": {
+        "role": "tertiary",
+        "displayName": "Canvas Assets",
+        "canonical": "oklch(0.77 0.15 72)",
+        "tonalRamp": [
+          "oklch(0.15 0.075 72)",
+          "oklch(0.27 0.12 72)",
+          "oklch(0.39 0.15 72)",
+          "oklch(0.51 0.15 72)",
+          "oklch(0.63 0.135 72)",
+          "oklch(0.75 0.105 72)",
+          "oklch(0.87 0.06 72)",
+          "oklch(0.95 0.03 72)"
+        ]
+      },
+      "canvas-neutral-left": {
+        "role": "neutral",
+        "displayName": "Canvas Neutral, Left Face",
+        "canonical": "oklch(0.95 0.004 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.002 268)",
+          "oklch(0.27 0.0032 268)",
+          "oklch(0.39 0.004 268)",
+          "oklch(0.51 0.004 268)",
+          "oklch(0.63 0.0036 268)",
+          "oklch(0.75 0.0028 268)",
+          "oklch(0.87 0.0016 268)",
+          "oklch(0.95 0.0008 268)"
+        ]
+      },
+      "canvas-neutral-right": {
+        "role": "neutral",
+        "displayName": "Canvas Neutral, Right Face",
+        "canonical": "oklch(0.905 0.006 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.003 268)",
+          "oklch(0.27 0.0048 268)",
+          "oklch(0.39 0.006 268)",
+          "oklch(0.51 0.006 268)",
+          "oklch(0.63 0.0054 268)",
+          "oklch(0.75 0.0042 268)",
+          "oklch(0.87 0.0024 268)",
+          "oklch(0.95 0.0012 268)"
+        ]
+      },
+      "canvas-neutral-edge": {
+        "role": "neutral",
+        "displayName": "Canvas Neutral, Edge",
+        "canonical": "oklch(0.42 0.012 268)",
+        "tonalRamp": [
+          "oklch(0.15 0.006 268)",
+          "oklch(0.27 0.0096 268)",
+          "oklch(0.39 0.012 268)",
+          "oklch(0.51 0.012 268)",
+          "oklch(0.63 0.0108 268)",
+          "oklch(0.75 0.0084 268)",
+          "oklch(0.87 0.0048 268)",
+          "oklch(0.95 0.0024 268)"
+        ]
+      }
+    },
+    "canvasFaces": {
+      "source": "components/chain/iso.ts",
+      "derivation": "top = L+0.10 at 72% chroma; left = base; right = L-0.09; edge = L-0.24 at 80% chroma",
+      "money": {
+        "top": "oklch(0.72 0.1368 257)",
+        "left": "oklch(0.62 0.19 257)",
+        "right": "oklch(0.53 0.19 257)",
+        "edge": "oklch(0.38 0.152 257)"
+      },
+      "invest": {
+        "top": "oklch(0.78 0.1152 157)",
+        "left": "oklch(0.68 0.16 157)",
+        "right": "oklch(0.59 0.16 157)",
+        "edge": "oklch(0.44 0.128 157)"
+      },
+      "assets": {
+        "top": "oklch(0.87 0.108 72)",
+        "left": "oklch(0.77 0.15 72)",
+        "right": "oklch(0.68 0.15 72)",
+        "edge": "oklch(0.53 0.12 72)"
+      },
+      "neutral": {
+        "top": "oklch(1 0 0)",
+        "left": "oklch(0.95 0.004 268)",
+        "right": "oklch(0.905 0.006 268)",
+        "edge": "oklch(0.42 0.012 268)"
+      },
+      "ink": "oklch(0.21 0.012 268)",
+      "rail": "oklch(0.21 0.012 268 / 0.24)"
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline and closing headline. Centred, one per band."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Band headings, held to 16ch."
+      },
+      "headline-panel": {
+        "displayName": "Panel headline",
+        "purpose": "Solution name inside a solution panel."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service names, audience names, flow label, solution claim line."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One sentence under a heading; graphite on light, night-dim on night."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions, capped between 24rem and 30rem in columns."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav links, step titles, control and status text."
+      },
+      "fine": {
+        "displayName": "Fine",
+        "purpose": "Qualifications and scope notes in graphite."
+      },
+      "legal": {
+        "displayName": "Legal",
+        "purpose": "Footer legal, walkthrough disclaimer, lane headings, legend."
+      }
+    },
+    "shadows": [
+      {
+        "name": "canvas-contact",
+        "value": "canvas: shadowColor oklch(0.3 0.03 268 / 0.2); shadowBlur 0.7u; shadowOffsetY 0.28u (u = one isometric grid unit in px)",
+        "purpose": "Soft contact shadow under grounded objects inside isometric scenes. No DOM surface carries a box-shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "House easing for hover, press, segment and node state changes (0.25s to 0.4s)."
+      },
+      {
+        "name": "rise",
+        "value": "0.9s var(--ease) backwards; from opacity 0, translateY(14px), blur(6px); stagger 0.08s",
+        "purpose": "Hero copy entrance, three elements."
+      },
+      {
+        "name": "icon-nudge",
+        "value": "transform: translateX(3px) over 0.3s var(--ease)",
+        "purpose": "Arrow slide on button and link hover."
+      },
+      {
+        "name": "press",
+        "value": "transform: scale(0.97)",
+        "purpose": "Primary button active state."
+      },
+      {
+        "name": "canvas-packet-speed",
+        "value": "3.2 grid units per second, linear",
+        "purpose": "Packets travel at constant speed on orthogonal rails."
+      },
+      {
+        "name": "canvas-ease-out",
+        "value": "1 - 2^(-10n)",
+        "purpose": "Arrivals: cubelets grow from 40% scale over 0.4s; flashes decay."
+      },
+      {
+        "name": "canvas-ease-in-out",
+        "value": "cubic in-out",
+        "purpose": "Block seals, chain shifts, hops and lifts."
+      },
+      {
+        "name": "flow-step",
+        "value": "5.2s linear progress bar; 2.6s packet loop along the active path",
+        "purpose": "Walkthrough step dwell and packet travel."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "canvas renders one still frame per scene; hero rise, button transitions and walkthrough autoplay are disabled",
+        "purpose": "prefers-reduced-motion behaviour."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "900px"
+      },
+      {
+        "name": "compact",
+        "value": "760px"
+      },
+      {
+        "name": "flow-legend",
+        "value": "950px"
+      },
+      {
+        "name": "flow-compact",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one obvious action in a view: an ink pill, optionally with a trailing arrow. Small cut in the nav, large cut at the close.",
+      "html": "<a class=\"ds-button\" href=\"#\">Talk to us</a> <a class=\"ds-button ds-button-large\" href=\"#\">Start a conversation <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-icon { width: 1.1em; height: 1.1em; flex: none; } .ds-button { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.8rem 1.5rem; border-radius: 999px; background: var(--ink); color: var(--paper); font-family: var(--font); font-weight: 600; font-size: 1rem; line-height: 1.2; letter-spacing: -0.01em; text-decoration: none; transition: background 0.25s var(--ease), transform 0.25s var(--ease); } .ds-button:hover { background: oklch(0.33 0.014 268); } .ds-button:active { transform: scale(0.97); } .ds-button:focus-visible { outline: 2px solid var(--money); outline-offset: 3px; } .ds-button-large { padding: 1.05rem 1.9rem; font-size: 1.125rem; } .ds-button .ds-icon { transition: transform 0.3s var(--ease); } .ds-button:hover .ds-icon { transform: translateX(3px); }"
+    },
+    {
+      "name": "Quiet Link",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The second action beside a pill: weight 600 text with an arrow, underline fades in on hover.",
+      "html": "<a class=\"ds-link\" href=\"#\">See the solutions <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-icon { width: 1.1em; height: 1.1em; flex: none; } .ds-link { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--font); font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-decoration: underline transparent; text-underline-offset: 0.3em; transition: text-decoration-color 0.25s; } .ds-link:hover { text-decoration-color: currentColor; } .ds-link .ds-icon { transition: transform 0.3s var(--ease); } .ds-link:hover .ds-icon { transform: translateX(3px); } .ds-link:focus-visible { outline: 2px solid var(--money); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Topic Chips",
+      "kind": "chip",
+      "refersTo": "chip-topic",
+      "description": "Single-choice radio group for the contact topic. Selected takes mist fill, ink border and weight 600.",
+      "html": "<div class=\"ds-topics\" role=\"radiogroup\"><button class=\"ds-chip\" role=\"radio\" aria-checked=\"true\">Integration services</button><button class=\"ds-chip\" role=\"radio\" aria-checked=\"false\">White-label product</button><button class=\"ds-chip\" role=\"radio\" aria-checked=\"false\">Technical walkthrough</button></div>",
+      "css": ".ds-topics { display: flex; flex-wrap: wrap; gap: 0.5rem; } .ds-chip { padding: 0.6rem 1.15rem; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; font-family: var(--font); font-size: 1rem; font-weight: 500; letter-spacing: -0.01em; color: var(--graphite); cursor: pointer; transition: border-color 0.25s, color 0.25s, background 0.25s; } .ds-chip:hover { border-color: var(--ink); color: var(--ink); } .ds-chip[aria-checked='true'] { background: var(--mist); border-color: var(--ink); color: var(--ink); font-weight: 600; } .ds-chip:focus-visible { outline: 2px solid var(--money); outline-offset: 3px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segment",
+      "description": "Solution switcher on the night band: a night-raised tray whose pressed segment becomes a paper tile.",
+      "html": "<div class=\"ds-segments\" role=\"group\"><button aria-pressed=\"true\">Move money<span>Sendr</span></button><button aria-pressed=\"false\">Digital investment<span>JUST Finance</span></button><button aria-pressed=\"false\">Tokenized assets<span>Environmental Registry</span></button></div>",
+      "css": ".ds-segments { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.375rem; padding: 0.375rem; background: var(--night-raised); border-radius: 1.25rem; font-family: var(--font); } .ds-segments button { display: grid; gap: 0.15rem; padding: 0.9rem 1.25rem; text-align: left; background: none; border: 0; border-radius: 0.95rem; font: inherit; font-size: clamp(1rem, 1.5vw, 1.25rem); font-weight: 600; letter-spacing: -0.02em; color: var(--night-dim); cursor: pointer; transition: background 0.3s var(--ease), color 0.3s var(--ease); } .ds-segments button span { font-size: 0.875rem; font-weight: 400; letter-spacing: -0.01em; } .ds-segments button:hover { color: var(--paper); } .ds-segments button[aria-pressed='true'] { background: var(--paper); color: var(--ink); } .ds-segments button[aria-pressed='true'] span { color: var(--graphite); } .ds-segments button:focus-visible { outline: 2px solid var(--money-lit); outline-offset: 3px; }"
+    },
+    {
+      "name": "Solution Panel",
+      "kind": "card",
+      "refersTo": "panel-mist",
+      "description": "Mist panel on paper. The solution hue appears only on the claim line; a hairline introduces the case study.",
+      "html": "<article class=\"ds-solution\"><h3>Move money</h3><p class=\"ds-claim\">Send value across borders on stablecoin rails.</p><p class=\"ds-solution-body\">Remittance and payout from customer onboarding and quotes, through stablecoin settlement, to local payout.</p><div class=\"ds-study\"><h4>Case study: Sendr</h4><p>A white-label remittance experience for financial services companies.</p><a class=\"ds-study-link\" href=\"#\">Follow a Sendr transfer <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div></article>",
+      "css": ".ds-icon { width: 1.1em; height: 1.1em; flex: none; } .ds-solution { --hue: var(--money); padding: clamp(1.75rem, 4.5vw, 4.5rem); background: var(--mist); border-radius: clamp(1.5rem, 2.6vw, 2.25rem); font-family: var(--font); font-size: 1.0625rem; line-height: 1.5; letter-spacing: -0.01em; color: var(--ink); } .ds-solution h3 { margin: 0; font-size: clamp(2rem, 4.2vw, 3.5rem); font-weight: 650; line-height: 1; letter-spacing: -0.03em; } .ds-solution p { margin: 0; } .ds-claim { margin-top: 0.9rem !important; font-size: clamp(1.25rem, 1.9vw, 1.625rem); font-weight: 600; line-height: 1.2; letter-spacing: -0.025em; color: var(--hue); } .ds-solution-body { margin-top: 0.9rem !important; color: var(--graphite); max-width: 30rem; } .ds-study { display: grid; gap: 0.6rem; margin-top: clamp(1.75rem, 3vw, 2.5rem); padding-top: clamp(1.25rem, 2vw, 1.75rem); border-top: 1px solid var(--line); max-width: 30rem; } .ds-study h4 { margin: 0; font-size: 1.0625rem; font-weight: 650; letter-spacing: -0.015em; } .ds-study p { font-size: 1rem; color: var(--graphite); } .ds-study-link { display: inline-flex; align-items: center; gap: 0.4rem; justify-self: start; margin-top: 0.5rem; font-weight: 600; color: inherit; text-decoration: underline transparent; text-underline-offset: 0.3em; transition: text-decoration-color 0.25s; } .ds-study-link:hover { text-decoration-color: currentColor; } .ds-study-link .ds-icon { transition: transform 0.3s var(--ease); } .ds-study-link:hover .ds-icon { transform: translateX(3px); } .ds-study-link:focus-visible { outline: 2px solid var(--money); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Engagement Panel",
+      "kind": "card",
+      "refersTo": "panel-paper",
+      "description": "Paper panel on the mist band with a checked list and a fine-print qualification.",
+      "html": "<div class=\"ds-engage\"><h3>What an engagement covers</h3><ul><li><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Use-case discovery and solution architecture</li><li><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>API and business-system integration</li></ul><p class=\"ds-fine\">Scope follows your systems, providers and operating requirements.</p></div>",
+      "css": ".ds-icon { width: 1.1em; height: 1.1em; flex: none; } .ds-engage { display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; padding: clamp(1.75rem, 3.5vw, 3rem); background: var(--paper); border-radius: clamp(1.5rem, 2.6vw, 2.25rem); font-family: var(--font); font-size: 1.0625rem; line-height: 1.5; letter-spacing: -0.01em; color: var(--ink); } .ds-engage h3 { margin: 0; font-size: clamp(1.25rem, 2vw, 1.625rem); font-weight: 600; line-height: 1.15; letter-spacing: -0.03em; } .ds-engage ul { display: grid; gap: 0.6rem; margin: 0; padding: 0; list-style: none; } .ds-engage li { display: flex; gap: 0.65rem; align-items: baseline; } .ds-engage li .ds-icon { position: relative; top: 0.18em; } .ds-fine { margin: 0; font-size: 0.875rem; line-height: 1.45; color: var(--graphite); }"
+    },
+    {
+      "name": "Specification List",
+      "kind": "custom",
+      "refersTo": "panel-paper",
+      "description": "Definition list naming the parts of the platform: title-size term, graphite description, hairline per row.",
+      "html": "<dl class=\"ds-spec\"><div><dt>Money movement</dt><dd>Wallet infrastructure, stablecoin operations and bank integration workflows.</dd></div><div><dt>Mission Control</dt><dd>An operational view of platform events, wallets, transactions and contract activity.</dd></div></dl>",
+      "css": ".ds-spec { margin: 0; font-family: var(--font); font-size: 1.0625rem; line-height: 1.5; letter-spacing: -0.01em; color: var(--ink); } .ds-spec > div { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 0.5rem 2rem; padding-block: clamp(1.25rem, 2.2vw, 1.75rem); border-top: 1px solid var(--line); } .ds-spec > div:last-child { border-bottom: 1px solid var(--line); } .ds-spec dt { font-size: clamp(1.25rem, 2vw, 1.625rem); font-weight: 600; line-height: 1.15; letter-spacing: -0.03em; } .ds-spec dd { margin: 0; color: var(--graphite); }"
+    },
+    {
+      "name": "Walkthrough Stepper",
+      "kind": "custom",
+      "refersTo": "panel-night",
+      "description": "Numbered steps on a night-line baseline. Completed and current numerals fill with the lit hue; the current step draws a 2px progress bar.",
+      "html": "<ol class=\"ds-steps\"><li><button class=\"ds-complete\"><span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg></span>Onboard &amp; verify<i></i></button></li><li><button aria-current=\"step\"><span>2</span>Accept a quote<i><b></b></i></button></li><li><button><span>3</span>Submit stablecoins<i></i></button></li></ol>",
+      "css": ".ds-steps { --lit: var(--money-lit); display: flex; gap: 0.75rem; margin: 0; padding: 1rem 1.5rem 0; list-style: none; background: var(--night-raised); border-bottom: 1px solid var(--night-line); font-family: var(--font); } .ds-steps li { flex: 1; min-width: 0; } .ds-steps button { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 0.6rem; width: 100%; min-height: 5.75rem; padding: 0.75rem 0 1.1rem; background: none; border: 0; text-align: left; font: inherit; font-size: 0.9375rem; font-weight: 500; line-height: 1.25; letter-spacing: -0.01em; color: var(--night-dim); cursor: pointer; transition: color 0.25s; } .ds-steps button > span { display: grid; place-items: center; width: 1.5rem; height: 1.5rem; border: 1px solid var(--night-line); border-radius: 50%; font-size: 0.75rem; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-steps .ds-icon { width: 0.8rem; height: 0.8rem; } .ds-steps button:hover, .ds-steps button[aria-current='step'] { color: var(--paper); } .ds-steps button[aria-current='step'] > span, .ds-steps button.ds-complete > span { background: var(--lit); border-color: var(--lit); color: var(--night); } .ds-steps i { position: absolute; inset: auto 0 -1px; height: 2px; overflow: hidden; } .ds-steps b { display: block; height: 100%; background: var(--lit); transform-origin: left; animation: ds-flow-progress 5.2s linear forwards; } @keyframes ds-flow-progress { from { transform: scaleX(0); } } .ds-steps button:focus-visible { outline: 2px solid var(--money-lit); outline-offset: 3px; border-radius: 4px; } @media (prefers-reduced-motion: reduce) { .ds-steps b { animation: none; } }"
+    },
+    {
+      "name": "Walkthrough Controls",
+      "kind": "button",
+      "refersTo": "button-night-play",
+      "description": "Night-band controls: the primary inverts to a paper pill; secondary actions are hairline circles.",
+      "html": "<div class=\"ds-controls\"><button class=\"ds-play\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M8.5 5.5v13M15.5 5.5v13\"/></svg><span>Pause</span></button><button aria-label=\"Previous step\" disabled><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"/></svg></button><button aria-label=\"Next step\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button><button aria-label=\"Restart walkthrough\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 12a7.5 7.5 0 1 0 2.4-5.5M4.5 4.5v4h4\"/></svg></button></div>",
+      "css": ".ds-icon { width: 1.1em; height: 1.1em; flex: none; } .ds-controls { display: flex; gap: 0.4rem; padding: 1.25rem 1.5rem; background: var(--night-raised); font-family: var(--font); } .ds-controls button { display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; min-width: 2.5rem; height: 2.5rem; background: none; border: 1px solid var(--night-line); border-radius: 999px; color: var(--paper); font: inherit; cursor: pointer; transition: border-color 0.25s, opacity 0.25s; } .ds-controls button.ds-play { min-width: 6.25rem; padding: 0 1rem; background: var(--paper); border-color: var(--paper); color: var(--ink); font-size: 0.9375rem; font-weight: 600; letter-spacing: -0.01em; } .ds-controls button:hover:not(:disabled) { border-color: var(--paper); } .ds-controls button:disabled { opacity: 0.35; cursor: default; } .ds-controls button:focus-visible { outline: 2px solid var(--money-lit); outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky translucent paper bar: wordmark with the stacked-plates mark, graphite links, small ink pill.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg class=\"ds-mark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3 21 8l-9 5-9-5z\" fill=\"currentColor\"/><path d=\"M3 12.5l9 5 9-5M3 16.5l9 5 9-5\"/></svg>FSCO Stack</a><nav><a href=\"#\">Solutions</a><a href=\"#\">How it works</a><a href=\"#\">Platform</a><a href=\"#\">Services</a></nav><a class=\"ds-nav-cta\" href=\"#\">Talk to us</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 2rem; height: 3.5rem; padding-inline: 1.5rem; background: oklch(1 0 0 / 0.82); backdrop-filter: saturate(1.6) blur(18px); -webkit-backdrop-filter: saturate(1.6) blur(18px); border-bottom: 1px solid oklch(0.21 0.012 268 / 0.08); font-family: var(--font); letter-spacing: -0.01em; color: var(--ink); } .ds-nav a { color: inherit; text-decoration: none; } .ds-brand { display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 1.125rem; letter-spacing: -0.03em; } .ds-mark { width: 1.4rem; height: 1.4rem; } .ds-nav nav { display: flex; gap: 1.75rem; margin-left: auto; font-size: 0.9375rem; color: var(--graphite); } .ds-nav nav a { transition: color 0.2s; } .ds-nav nav a:hover { color: var(--ink); } .ds-nav-cta { padding: 0.5rem 1rem; border-radius: 999px; background: var(--ink); color: var(--paper) !important; font-weight: 600; font-size: 0.9375rem; line-height: 1.2; transition: background 0.25s var(--ease), transform 0.25s var(--ease); } .ds-nav-cta:hover { background: oklch(0.33 0.014 268); } .ds-nav-cta:active { transform: scale(0.97); } .ds-nav a:focus-visible { outline: 2px solid var(--money); outline-offset: 3px; border-radius: 4px; } .ds-nav-cta:focus-visible { border-radius: 999px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The White Studio",
+    "overview": "The page is a product-render studio: a seamless white ground, near-black ink, and isometric cubes drawn with pale faces and hairline edges, as if photographed on a sweep. Into that quiet room come three hues, one per solution, and they are the only colour allowed in. Blue is money, green is investment, amber is assets. Each hue marks its solution's source tile, its moving packets, its cubelets, its claim line and its active state, and nothing else.\n\nThe system persuades by showing, not decorating. Value travels along rails and becomes blocks in front of the visitor; the type stays out of the way by being one grotesque, set tight and heavy at display size and plain at reading size. Density is low: wide bands, one idea per band, generous radii on a small number of large panels. A night band holds the interactive walkthrough and the footer closes in the same night, so the page goes white, night, white, mist, white, night.\n\nThe earlier forest, lime and cream identity with the skewed \"F\" mark is discarded and does not return in any form.",
+    "keyCharacteristics": [
+      "White ground, ink text, tonal greys with a faint cool cast (hue 268); no warm neutrals.",
+      "Exactly three chromatic hues, each owned by one solution.",
+      "Isometric canvas scenes as the only imagery; no photos, screenshots or logos.",
+      "One variable grotesque (Host Grotesk) carrying every role by size and weight.",
+      "Pill controls in ink; large soft-cornered panels; hairline dividers.",
+      "Flat DOM surfaces: depth is tonal, never shadowed.",
+      "Motion that travels at constant speed, eases out on arrival and never overshoots."
+    ],
+    "rules": [
+      {
+        "name": "The Three Hues Rule",
+        "body": "Colour belongs to the solutions. A hue may mark a solution's source tile, packets, cubelets, claim line and active state. Buttons, links, headings, grounds and icons stay ink, paper or grey. The one exception the build carries is the focus ring, which borrows Money Blue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Tables Rule",
+        "body": "Canvas hues and text hues are separate values on purpose. Canvas values are bright enough to read as lit cube faces and are never used for text; the CSS hues are dark enough to hold text contrast on mist and are never used to paint faces. Do not unify them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lit On Night Rule",
+        "body": "On night grounds use the `-lit` tuning of a hue; on paper and mist use the base tuning. Never cross them.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Host Grotesk is the only typeface, including inside canvas scenes, which read their font from the page. No second family, no monospace, no uppercase, no positive tracking. Tracking tightens as size grows: -0.01em at body, -0.03em at title, -0.04em at display.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weight Ladder Rule",
+        "body": "400 reads, 500 labels a state, 600 names a thing, 650 heads a band, 700 is the wordmark only. Headings balance their wraps and paragraphs wrap pretty.",
+        "section": "typography"
+      },
+      {
+        "name": "The Drawn Depth Rule",
+        "body": "If something needs to look raised, change its ground tone or draw it as a cube in a scene. Shadows are a canvas material; they are not applied to panels, buttons or the nav.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep grounds to the four tones: `paper`, `mist`, `night`, `night-raised`, and change ground to separate bands.",
+      "Do give each solution its own hue everywhere it appears, and use the base tuning on light grounds, the `-lit` tuning on night, and the canvas tuning for cube faces.",
+      "Do make the primary action an ink pill (a paper pill on night) and pair it with at most one quiet underlined link.",
+      "Do set every piece of text in Host Grotesk, tightening tracking as size grows (-0.01em body, -0.03em title, -0.04em display).",
+      "Do show ideas as isometric scenes built from the existing vocabulary: tiles, rails, packets, cubelets, ghost frames, sealed blocks, links.",
+      "Do move things at constant speed, ease arrivals out, ease seals in and out, and provide a composed still frame for reduced motion.",
+      "Do distinguish path kinds by weight and dash as well as hue.",
+      "Do divide with 1px hairlines in `line` or `night-line`."
+    ],
+    "donts": [
+      "Don't put a solution hue on buttons, links, headings, icons or grounds. Colour belongs to the solutions.",
+      "Don't use canvas hue values for text, or CSS hue values for cube faces; the two tables are separate by design.",
+      "Don't add box-shadows to panels, buttons or the nav. Shadow exists only as the contact shadow drawn inside a scene.",
+      "Don't introduce a second typeface, monospace, uppercase or positively tracked text.",
+      "Don't let motion overshoot, bounce or spring.",
+      "Don't square off controls or sharpen panel corners; controls are pills and panels carry the fluid large radius.",
+      "Don't place isometric scenes on night grounds as drawn; their labels and rails are ink.",
+      "Don't bring back the discarded forest, lime and cream identity or the skewed \"F\" mark.",
+      "Don't use photographs, product screenshots, customer logos or metrics as imagery; none exist, and the scenes are the proof."
+    ]
+  }
+}
