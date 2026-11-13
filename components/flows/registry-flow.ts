@@ -2,7 +2,7 @@ import type {Flow} from './flow-data';
 export const registryFlow:Flow={
  label:'Project evidence to digital credit lifecycle',
  summary:'Explore the target registry workflow: connect project records and human review with issuance, ownership and retirement through FSCO Stack.',
- lanes:['REGISTRY EXPERIENCE','FSCO STACK','REVIEW & LEDGER'],
+ lanes:['Registry experience','FSCO Stack','Review and ledger'],
  disclaimer:'Illustrative target workflow. Issuance, transfer and retirement integrations are scoped for each registry implementation. Animation speed does not represent processing time.',
  nodes:{
   app:{title:'Registry app',subtitle:'Environmental Registry'},
