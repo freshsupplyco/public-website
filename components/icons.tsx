@@ -18,9 +18,10 @@ export default function Icon({ name, className }: { name: keyof typeof PATHS; cl
 
 export function Mark() {
   return (
-    <svg className="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinejoin="round" aria-hidden="true">
-      <path d="M12 3 21 8l-9 5-9-5z" fill="currentColor" />
-      <path d="M3 12.5l9 5 9-5M3 16.5l9 5 9-5" />
+    <svg className="mark" viewBox="0 0 24 24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 3 21 8l-9 5-9-5z" fill="oklch(0.62 0.19 257)" stroke="oklch(0.62 0.19 257)" strokeWidth="1.2" />
+      <path d="M3 12.5l9 5 9-5" stroke="oklch(0.68 0.16 157)" />
+      <path d="M3 17l9 5 9-5" stroke="oklch(0.77 0.15 72)" />
     </svg>
   );
 }
